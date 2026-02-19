@@ -4,7 +4,7 @@
 
 LocalImg is a native macOS app that runs Stable Diffusion models locally on Apple Silicon using the incredible [MLX framework](https://github.com/ml-explore/mlx). Type a prompt, hit generate, and watch your image come to life — all without a single byte leaving your machine. This is made for fun, MVP stage, curious on local image generation project.
 
-![localImg](./reference/LocalImg.mov)
+![localImg](./reference/LocalImg.gif)
 ---
 
 ## ✨ What It Does
@@ -68,7 +68,7 @@ The engine auto-detects available system RAM and adjusts its strategy:
 ### Build & Run
 
 ```bash
-git clone https://github.com/your-username/local-img.git
+git clone https://github.com/scodes73/local-img.git
 cd local-img
 swift run
 ```
